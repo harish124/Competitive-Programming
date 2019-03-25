@@ -25,9 +25,9 @@ def isPrime(n):
 
     return 1
 
+primeSet=set()
 def calcPrimeSet():
-    primeSet=set()
-    for i in range(1,1000000):
+    for i in range(999983,10000000):
         if(isPrime(i)):
             #print(i)
             primeSet.add(i)
